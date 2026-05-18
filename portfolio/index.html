@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gowtham .S | Cybersecurity & UI/UX</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="noise">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-content">
+      <div class="nav-logo syne" onclick="scrollToSection('Home')">
+        Gowtham.S<span>.</span>
+      </div>
+      <div class="nav-links">
+        <button onclick="scrollToSection('Home')" class="active">Home</button>
+        <button onclick="scrollToSection('About')">About</button>
+        <button onclick="scrollToSection('Skills')">Skills</button>
+        <button onclick="scrollToSection('Projects')">Projects</button>
+        <button onclick="scrollToSection('Experience')">Experience</button>
+        <button onclick="scrollToSection('Certifications')">Certifications</button>
+        <button onclick="scrollToSection('Contact')">Contact</button>
+      </div>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="Home" class="hero grid-bg">
+    <div class="hero-blobs">
+      <div class="blob-1"></div>
+      <div class="blob-2"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <div class="fade-up">
+          <span class="tag" style="margin-bottom: 24px;">👋 Welcome to my portfolio</span>
+        </div>
+        <h1 class="hero-title syne fade-up" style="transition-delay: 0.15s; white-space: nowrap;">
+          Gowtham<span style="color: #2563eb;">.S</span>
+        </h1>
+        <h2 class="hero-role syne fade-up" style="transition-delay: 0.3s;">
+          Cybersecurity Enthusiast & UI/UX Designer
+        </h2>
+        <p class="hero-description fade-up" style="transition-delay: 0.45s;">
+          I am learning hardware skills for IT support and asset management, and I also have knowledge in UI/UX
+          designing.
+          Currently, I am learning Digital Marketing and Meta Ads while expanding my expertise in cybersecurity and
+          networking.
+        </p>
+        <div class="hero-actions fade-up" style="transition-delay: 0.6s;">
+          <button class="btn-primary" onclick="scrollToSection('Projects')">View Projects →</button>
+          <a href="resume.pdf" download class="btn-outline">↓ Download Resume</a>
+        </div>
+        <div class="hero-stats fade-up" style="transition-delay: 0.75s;">
+          <div class="stat-item">
+            <div class="stat-val syne">B.E CSE</div>
+            <div class="stat-label">Cyber Security</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-val syne">Honours Degree</div>
+            <div class="stat-label">AI & ML</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-container fade-up" style="transition-delay: 0.3s;">
+        <div class="image-frame">
+          <img src="images/my.png" alt="Gowtham .S" class="hero-portrait">
+          <div class="image-glow"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">↓</div>
+  </section>
+
+  <!-- About Section -->
+  <section id="About">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <div class="fade-up">
+            <div class="section-label-container">
+              <span class="tag">About Me</span>
+              <div class="section-label-line"></div>
+            </div>
+            <h2 class="section-title syne">Building Secure & Beautiful Digital Experiences</h2>
+            <p class="section-sub">Passionate about the intersection of cybersecurity, design, and technology.</p>
+          </div>
+          <div class="fade-up" style="transition-delay: 0.1s;">
+            <p>I am a Computer Science Engineering student specializing in Cybersecurity at Sengunthar Engineering
+              College. My passion lies in protecting digital environments while crafting intuitive, user-centric
+              interfaces. I believe great technology is both secure and beautiful.</p>
+            <p>With hands-on experience in networking, hardware troubleshooting, and Active Directory from my internship
+              at Zigma Global Environ Solution, I've developed a practical understanding of enterprise IT
+              infrastructure. Alongside this, I'm constantly honing my UI/UX design skills and exploring Digital
+              Marketing with Meta Ads.</p>
+            <p>My goal is to build digital solutions that are not only visually compelling but also fundamentally secure
+              — bridging the gap between cybersecurity and user experience for a safer digital world.</p>
+          </div>
+        </div>
+        <div class="fade-up" style="transition-delay: 0.2s;">
+          <div class="about-card card-glow">
+            <div class="about-card-section">
+              <div class="about-card-label syne">Education</div>
+              <div class="about-card-title">Sengunthar Engineering College</div>
+              <div class="about-card-sub">B.E CSE (Cybersecurity) · 2022 – 2026</div>
+            </div>
+            <div class="about-card-section">
+              <div class="about-card-label syne">Experience</div>
+              <div class="about-card-title">Zigma Global Environ Solution</div>
+              <div class="about-card-sub">IT Support Intern · 60 Days</div>
+            </div>
+            <div class="about-card-section">
+              <div class="about-card-label syne">Languages</div>
+              <div class="focus-areas">
+                <span class="tag">Tamil</span>
+                <span class="tag">English</span>
+                <span class="tag">Japanese</span>
+              </div>
+            </div>
+            <div class="about-card-section">
+              <div class="about-card-label syne">Focus Areas</div>
+              <div class="focus-areas">
+                <span class="tag">Cybersecurity</span>
+                <span class="tag">Networking</span>
+                <span class="tag">UI/UX</span>
+                <span class="tag">Digital Marketing</span>
+                <span class="tag">IT Support</span>
+                <span class="tag">Hardware</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="Skills" style="background: rgba(255,255,255,0.01);">
+    <div class="container">
+      <div class="fade-up">
+        <div class="section-label-container">
+          <span class="tag">Skills</span>
+          <div class="section-label-line"></div>
+        </div>
+        <h2 class="section-title syne">My Expertise</h2>
+        <p class="section-sub">A diverse skill set spanning security, design, and programming.</p>
+      </div>
+      <div class="skills-grid">
+        <!-- UI/UX -->
+        <div class="skill-card card-glow fade-up animated-card" onclick="toggleSkillCard(this)">
+          <div class="skill-header">
+            <span class="skill-icon">🎨</span>
+            <div>
+              <div class="skill-name">UI/UX Design</div>
+              <div class="skill-desc animated-desc-default">Click to view expertise</div>
+            </div>
+          </div>
+          <div class="animated-marquee-container">
+            <div class="animated-marquee-content">
+              <div class="animated-tag"><span class="animated-skill-icon">🎨</span> Figma</div>
+              <div class="animated-tag"><span class="animated-skill-icon">✨</span> Adobe XD</div>
+              <div class="animated-tag"><span class="animated-skill-icon">📐</span> Wireframing</div>
+              <div class="animated-tag"><span class="animated-skill-icon">🚀</span> Prototyping</div>
+              <!-- Duplicate for seamless loop -->
+              <div class="animated-tag"><span class="animated-skill-icon">🎨</span> Figma</div>
+              <div class="animated-tag"><span class="animated-skill-icon">✨</span> Adobe XD</div>
+              <div class="animated-tag"><span class="animated-skill-icon">📐</span> Wireframing</div>
+              <div class="animated-tag"><span class="animated-skill-icon">🚀</span> Prototyping</div>
+            </div>
+          </div>
+        </div>
+        <!-- IT Support -->
+        <div class="skill-card card-glow fade-up animated-card" onclick="toggleSkillCard(this)">
+          <div class="skill-header">
+            <span class="skill-icon">🛡️</span>
+            <div>
+              <div class="skill-name">IT Support & Security</div>
+              <div class="skill-desc animated-desc-default">Click to view expertise</div>
+            </div>
+          </div>
+          <div class="animated-marquee-container">
+            <div class="animated-marquee-content">
+              <div class="animated-tag"><span class="animated-skill-icon">🌐</span> Networking</div>
+              <div class="animated-tag"><span class="animated-skill-icon">📦</span> Asset Management</div>
+              <div class="animated-tag"><span class="animated-skill-icon">⚙️</span> Hardware Skills</div>
+              <div class="animated-tag"><span class="animated-skill-icon">🔒</span> Security Basics</div>
+              <!-- Duplicate for seamless loop -->
+              <div class="animated-tag"><span class="animated-skill-icon">🌐</span> Networking</div>
+              <div class="animated-tag"><span class="animated-skill-icon">📦</span> Asset Management</div>
+              <div class="animated-tag"><span class="animated-skill-icon">⚙️</span> Hardware Skills</div>
+              <div class="animated-tag"><span class="animated-skill-icon">🔒</span> Security Basics</div>
+            </div>
+          </div>
+        </div>
+        <!-- Programming -->
+        <div class="skill-card card-glow fade-up animated-card" onclick="toggleSkillCard(this)">
+          <div class="skill-header">
+            <span class="skill-icon">🐍</span>
+            <div>
+              <div class="skill-name">Programming</div>
+              <div class="skill-desc animated-desc-default">Click to view expertise</div>
+            </div>
+          </div>
+          <div class="animated-marquee-container">
+            <div class="animated-marquee-content">
+              <div class="animated-tag"><span class="animated-skill-icon">🐍</span> Python</div>
+              <div class="animated-tag"><span class="animated-skill-icon">☕</span> Java</div>
+              <div class="animated-tag"><span class="animated-skill-icon">💻</span> C / C++</div>
+              <div class="animated-tag"><span class="animated-skill-icon">🧠</span> Algorithms</div>
+              <!-- Duplicate for seamless loop -->
+              <div class="animated-tag"><span class="animated-skill-icon">🐍</span> Python</div>
+              <div class="animated-tag"><span class="animated-skill-icon">☕</span> Java</div>
+              <div class="animated-tag"><span class="animated-skill-icon">💻</span> C / C++</div>
+              <div class="animated-tag"><span class="animated-skill-icon">🧠</span> Algorithms</div>
+            </div>
+          </div>
+        </div>
+        <!-- Web Dev -->
+        <div class="skill-card card-glow fade-up animated-card" onclick="toggleSkillCard(this)">
+          <div class="skill-header">
+            <span class="skill-icon">💻</span>
+            <div>
+              <div class="skill-name">Web Development</div>
+              <div class="skill-desc animated-desc-default">Click to view expertise</div>
+            </div>
+          </div>
+          <div class="animated-marquee-container">
+            <div class="animated-marquee-content">
+              <div class="animated-tag"><span class="animated-skill-icon">📄</span> HTML</div>
+              <div class="animated-tag"><span class="animated-skill-icon">🎨</span> CSS</div>
+              <div class="animated-tag"><span class="animated-skill-icon">⚡</span> JavaScript</div>
+              <div class="animated-tag"><span class="animated-skill-icon">📱</span> Responsive Design</div>
+              <!-- Duplicate for seamless loop -->
+              <div class="animated-tag"><span class="animated-skill-icon">📄</span> HTML</div>
+              <div class="animated-tag"><span class="animated-skill-icon">🎨</span> CSS</div>
+              <div class="animated-tag"><span class="animated-skill-icon">⚡</span> JavaScript</div>
+              <div class="animated-tag"><span class="animated-skill-icon">📱</span> Responsive Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="Projects">
+    <div class="container">
+      <div class="fade-up">
+        <div class="section-label-container">
+          <span class="tag">Projects</span>
+          <div class="section-label-line"></div>
+        </div>
+        <h2 class="section-title syne">Featured Work</h2>
+        <p class="section-sub">Cybersecurity solutions built with purpose.</p>
+      </div>
+      <div class="fade-up" style="transition-delay: 0.15s;">
+        <div class="project-card card-glow">
+          <div class="project-bg-accent"></div>
+          <div class="project-grid">
+            <div>
+              <div class="project-header">
+                <div class="project-icon-box">🎣</div>
+                <div>
+                  <h3 class="project-info-title syne">PhishNet</h3>
+                  <span class="tag">AI-Powered · Cybersecurity</span>
+                </div>
+              </div>
+              <p class="project-main-desc">Developed PhishNet, an AI-powered phishing detection system using Python and
+                machine learning to detect malicious websites and suspicious URLs in real time. Implemented URL
+                scanning, threat analysis, and alert mechanisms to improve cybersecurity protection.</p>
+              <div style="margin-bottom: 24px;">
+                <div class="tech-label">Technologies</div>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">URL Scanning</span>
+                  <span class="tech-tag">Threat Analysis</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="features-label">Key Features</div>
+              <div class="feature-item">
+                <div class="feature-dot"></div>
+                <span class="feature-text">Real-time phishing URL detection</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-dot"></div>
+                <span class="feature-text">ML-based threat analysis</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-dot"></div>
+                <span class="feature-text">Suspicious domain detection</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-dot"></div>
+                <span class="feature-text">Security alerts & reports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="Experience" style="background: rgba(255,255,255,0.01);">
+    <div class="container">
+      <div class="fade-up">
+        <div class="section-label-container">
+          <span class="tag">Experience</span>
+          <div class="section-label-line"></div>
+        </div>
+        <h2 class="section-title syne">Work History</h2>
+      </div>
+
+      <!-- Internship 1 -->
+      <div class="timeline-container fade-up" style="transition-delay: 0.1s;">
+        <div class="timeline-line-box">
+          <div class="timeline-dot"></div>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card card-glow">
+          <div class="timeline-header">
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <div class="timeline-card-icon">💼</div>
+              <div>
+                <h3 class="timeline-title syne">IT Support Intern</h3>
+                <div class="timeline-sub">Zigma Global Environ Solution, Erode</div>
+              </div>
+            </div>
+            <div class="timeline-date-box">
+              <span class="tag">60 Days</span>
+              <div class="timeline-performance">Summer 2024</div>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 14px; margin-top: 10px;">Hands-on experience in networking,
+            asset management, and hardware troubleshooting.</p>
+        </div>
+      </div>
+
+      <!-- Internship 2 -->
+      <div class="timeline-container fade-up" style="transition-delay: 0.2s; margin-top: 20px;">
+        <div class="timeline-line-box">
+          <div class="timeline-dot" style="background: var(--accent-sky);"></div>
+          <div class="timeline-line" style="height: 100px;"></div>
+        </div>
+        <div class="timeline-card card-glow">
+          <div class="timeline-header">
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <div class="timeline-card-icon">📊</div>
+              <div>
+                <h3 class="timeline-title syne">Data Science Intern</h3>
+                <div class="timeline-sub">Emglitz Technology, Coimbatore</div>
+              </div>
+            </div>
+            <div class="timeline-date-box">
+              <span class="tag">15 Days</span>
+              <div class="timeline-performance">Winter 2023</div>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 14px; margin-top: 10px;">Focused on data science
+            applications using Python.</p>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div style="margin-top: 64px;">
+        <div class="fade-up">
+          <div class="section-label-container">
+            <span class="tag">Education</span>
+            <div class="section-label-line"></div>
+          </div>
+          <h2 class="section-title syne">Academic Background</h2>
+        </div>
+        <div class="timeline-container edu-timeline fade-up" style="transition-delay: 0.1s;">
+          <div class="timeline-line-box">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card card-glow">
+            <div class="timeline-header">
+              <div style="display: flex; gap: 16px; align-items: flex-start;">
+                <div class="timeline-card-icon">🎓</div>
+                <div>
+                  <h3 class="timeline-title syne">B.E CSE (Cyber Security)</h3>
+                  <div class="timeline-sub">Sengunthar Engineering College, Tiruchengode</div>
+                </div>
+              </div>
+              <div class="timeline-date-box">
+                <span class="tag">2022 – 2026</span>
+                <div class="timeline-performance">CGPA: 8.12</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HSC -->
+        <div class="timeline-container edu-timeline fade-up" style="transition-delay: 0.2s; margin-top: 20px;">
+          <div class="timeline-line-box">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card card-glow">
+            <div class="timeline-header">
+              <div style="display: flex; gap: 16px; align-items: flex-start;">
+                <div class="timeline-card-icon">🏫</div>
+                <div>
+                  <h3 class="timeline-title syne">HSC (12th Grade)</h3>
+                  <div class="timeline-sub">Grace Matric Hr. Sec. School, Erode</div>
+                </div>
+              </div>
+              <div class="timeline-date-box">
+                <span class="tag">2021 – 2022</span>
+                <div class="timeline-performance">Percentage: 67%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SSLC -->
+        <div class="timeline-container edu-timeline fade-up" style="transition-delay: 0.3s; margin-top: 20px;">
+          <div class="timeline-line-box">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line" style="height: 0; opacity: 0;"></div>
+          </div>
+          <div class="timeline-card card-glow">
+            <div class="timeline-header">
+              <div style="display: flex; gap: 16px; align-items: flex-start;">
+                <div class="timeline-card-icon">📚</div>
+                <div>
+                  <h3 class="timeline-title syne">SSLC (10th Grade)</h3>
+                  <div class="timeline-sub">Grace Matric Hr. Sec. School, Erode</div>
+                </div>
+              </div>
+              <div class="timeline-date-box">
+                <span class="tag">2019 – 2020</span>
+                <div class="timeline-performance">Percentage: 79%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="Certifications">
+    <div class="container">
+      <div class="fade-up">
+        <div class="section-label-container">
+          <span class="tag">Certifications</span>
+          <div class="section-label-line"></div>
+        </div>
+        <h2 class="section-title syne">Credentials & Achievements</h2>
+        <p class="section-sub">Professional certifications and virtual internships.</p>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card card-glow fade-up interactive-cert" onclick="toggleCertCard(this)">
+          <div class="cert-icon">🌐</div>
+          <h3 class="cert-title syne">Networking Basics</h3>
+          <div class="cert-issuer">Theeran Hub, Bangalore</div>
+          <div class="cert-view-hint">Click to view →</div>
+          <div class="cert-image-container">
+            <img src="images/networking-basics.png" alt="Networking Basics" class="cert-image" onerror="this.parentElement.style.display='none'">
+          </div>
+        </div>
+        <div class="cert-card card-glow fade-up interactive-cert" style="transition-delay: 0.1s;" onclick="toggleCertCard(this)">
+          <div class="cert-icon">🛡️</div>
+          <h3 class="cert-title syne">Ethical Hacking Basics</h3>
+          <div class="cert-issuer">Alpha Academy, Bangalore</div>
+          <div class="cert-view-hint">Click to view →</div>
+          <div class="cert-image-container">
+            <img src="images/alpha.png" alt="Ethical Hacking Basics" class="cert-image">
+          </div>
+        </div>
+        <div class="cert-card card-glow fade-up interactive-cert" style="transition-delay: 0.2s;" onclick="toggleCertCard(this)">
+          <div class="cert-icon">☁️</div>
+          <h3 class="cert-title syne">Cyber Security Internship</h3>
+          <div class="cert-issuer">PALOALTO (Virtual)</div>
+          <div class="cert-view-hint">Click to view →</div>
+          <div class="cert-image-container">
+            <img src="images/paloalto.png" alt="Cyber Security Internship" class="cert-image">
+          </div>
+        </div>
+        <div class="cert-card card-glow fade-up interactive-cert" style="transition-delay: 0.3s;" onclick="toggleCertCard(this)">
+          <div class="cert-icon">📡</div>
+          <h3 class="cert-title syne">Networking Internship</h3>
+          <div class="cert-issuer">ZSCALER (Virtual)</div>
+          <div class="cert-view-hint">Click to view →</div>
+          <div class="cert-image-container">
+            <img src="images/zscaler.png" alt="Networking Internship" class="cert-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="Contact" style="background: rgba(255,255,255,0.01);">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <div class="fade-up">
+            <div class="section-label-container">
+              <span class="tag">Contact</span>
+              <div class="section-label-line"></div>
+            </div>
+            <h2 class="section-title syne">Get In Touch</h2>
+            <p class="section-sub">Have a project in mind or just want to connect? Feel free to reach out.</p>
+          </div>
+          <div class="contact-info fade-up" style="transition-delay: 0.1s;">
+            <a href="mailto:gowthamsg929@gmail.com" class="info-link">
+              <span class="info-icon">✉️</span>
+              <div>
+                <div class="info-label">Email</div>
+                <div class="info-val">gowthamsg929@gmail.com</div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/gowtham-s-9a4a261b1" target="_blank" class="info-link">
+              <span class="info-icon">💼</span>
+              <div>
+                <div class="info-label">LinkedIn</div>
+                <div class="info-val">Gowtham .S</div>
+              </div>
+            </a>
+            <a href="tel:6384110568" class="info-link">
+              <span class="info-icon">📞</span>
+              <div>
+                <div class="info-label">Phone</div>
+                <div class="info-val">6384110568</div>
+              </div>
+            </a>
+            <div class="info-link" style="cursor: default;">
+              <span class="info-icon">📍</span>
+              <div>
+                <div class="info-label">Address</div>
+                <div class="info-val">211, Royal theatre 2nd street, Bhavani, Erode</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fade-up" style="transition-delay: 0.2s;">
+          <div class="contact-form-card card-glow">
+            <h3 class="form-title syne">Send a Message</h3>
+            <form id="contact-form" class="form-group">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <textarea placeholder="Your Message" rows="5" style="resize: vertical;" required></textarea>
+              <button type="submit" class="btn-primary" style="padding: 14px; width: 100%;">Send Message →</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-copy">
+      © 2025 <span>Gowtham .S</span> · Cybersecurity Enthusiast & UI/UX Designer
+    </div>
+    <div class="footer-links">
+      <a href="mailto:gowthamsg929@gmail.com">✉ Email</a>
+      <a href="https://www.linkedin.com/in/gowtham-s-9a4a261b1" target="_blank">💼 LinkedIn</a>
+    </div>
+  </footer>
+
+  <script>
+    // --- Navigation Logic ---
+    function scrollToSection(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        window.scrollTo({
+          top: el.offsetTop - 64, // Subtract navbar height
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // --- Active Section Highlighting & Navbar Style ---
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      const sections = document.querySelectorAll('section');
+      const navButtons = document.querySelectorAll('.nav-links button');
+
+      // Navbar glass effect
+      if (window.scrollY > 40) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+
+      // Highlight active link
+      let current = "";
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (window.scrollY >= sectionTop - 150) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navButtons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.textContent === current || (current === 'Home' && btn.textContent === 'Home')) {
+          btn.classList.add('active');
+        }
+      });
+    });
+
+    // --- Fade Up Observer ---
+    const fadeObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+
+          // If it's a skill progress bar, animate it
+          const progress = entry.target.querySelector('.skill-progress');
+          if (progress) {
+            const level = progress.getAttribute('data-level');
+            progress.style.width = level + '%';
+          }
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-up, .skill-card').forEach(el => {
+      fadeObserver.observe(el);
+    });
+
+    // --- Skill Card Accordion Logic ---
+    function toggleSkillCard(card) {
+      // If the clicked card is already active, just close it
+      if (card.classList.contains('active')) {
+        card.classList.remove('active');
+        return;
+      }
+
+      // Otherwise, close all cards first
+      document.querySelectorAll('.animated-card').forEach(c => {
+        c.classList.remove('active');
+      });
+
+      // Then open the clicked card
+      card.classList.add('active');
+    }
+
+    // --- Cert Card Accordion Logic ---
+    function toggleCertCard(card) {
+      // If the clicked card is already active, just close it
+      if (card.classList.contains('active')) {
+        card.classList.remove('active');
+        const hint = card.querySelector('.cert-view-hint');
+        if (hint) hint.textContent = 'Click to view →';
+        return;
+      }
+
+      // Otherwise, close all cards first
+      document.querySelectorAll('.interactive-cert').forEach(c => {
+        c.classList.remove('active');
+        const hint = c.querySelector('.cert-view-hint');
+        if (hint) hint.textContent = 'Click to view →';
+      });
+
+      // Then open the clicked card
+      card.classList.add('active');
+      const hint = card.querySelector('.cert-view-hint');
+      if (hint) hint.textContent = 'Click to close ✕';
+    }
+
+    // --- Simple Form Handling ---
+    document.getElementById('contact-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = e.target.querySelector('button');
+      const originalText = btn.textContent;
+      btn.textContent = '✓ Message Sent!';
+      btn.style.background = '#22c55e';
+      e.target.reset();
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.style.background = '';
+      }, 4000);
+    });
+  </script>
+</body>
+
+</html>
